@@ -1,0 +1,46 @@
+{
+  "name": "node-module-patch-source-loader",
+  "version": "1.0.0",
+  "description": "patch node module source code during webpack compile time",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newying61/node-module-patch-source-loader.git"
+  },
+  "files": [
+    "index.js",
+    "loader.js"
+  ],
+  "peerDependencies": {
+    "webpack": "^4.0.0"
+  },
+  "dependencies": {
+    "escape-string-regexp": "^2.0.0",
+    "loader-utils": "^1.2.3"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.9.0",
+    "babel-preset-env": "^1.7.0",
+    "isarray": "1.0.0",
+    "jest": "^24.9.0",
+    "memory-fs": "^0.4.1",
+    "webpack": "^4.39.2"
+  },
+  "keywords": [
+    "webpack",
+    "node module",
+    "patch source"
+  ],
+  "author": "ShoM <newying61@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/newying61/node-module-patch-source-loader/issues"
+  },
+  "homepage": "https://github.com/newying61/node-module-patch-source-loader#readme",
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
