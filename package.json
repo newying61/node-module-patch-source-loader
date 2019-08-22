@@ -1,6 +1,6 @@
 {
   "name": "node-module-patch-source-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "patch node module source code during webpack compile time",
   "main": "index.js",
   "scripts": {
